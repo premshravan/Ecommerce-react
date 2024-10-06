@@ -1,0 +1,10 @@
+@import url("https://uilight.netlify.app/main.css"); /* Must come first */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: aqua;
+}
