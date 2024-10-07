@@ -38,7 +38,7 @@ const Home = () => {
     <>
       <Navbar />
       <main className="pt-8">
-        <div className=" flex gap-4 justify-center mb-3 mt-5 ">
+        <div className=" flex gap-4 justify-center mb-3 mt-12 ">
           {categories?.length > 0 &&
             categories.map((category) => (
               <div
