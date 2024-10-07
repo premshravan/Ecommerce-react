@@ -30,7 +30,7 @@ const ProductsCard = ({ product }) => {
   };
 
   return (
-    <div className="card card-vertical d-flex direction-column relative shadow mt-8 ">
+    <div className="card card-vertical d-flex direction-column relative shadow mt-12 ">
       <div className="card-image-container">
         <img className="card-image " src={product.images[0]} alt="shoes" />
       </div>
